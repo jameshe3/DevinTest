@@ -4,31 +4,31 @@ function App() {
   const modalScreenshots = [
     {
       title: "Homepage",
-      image: "https://raw.githubusercontent.com/jameshe3/DevinTest/main/docs/onboarding-comparison/screenshots/modal_065146.png",
-      description: "Clean, modern design focused on high-performance AI infrastructure. Offers $30/month free compute and clear navigation options."
+      image: "/images/modal-signup.png",
+      description: "Clean, minimalist design with Modal logo. Offers $30 free monthly compute. Authentication options include GitHub (primary) and Google. Terms of service agreement required."
     },
     {
       title: "Sign Up Page",
-      image: "https://raw.githubusercontent.com/jameshe3/DevinTest/main/docs/onboarding-comparison/screenshots/modal_signup_next_065159.png",
-      description: "Simple authentication options with GitHub and Google sign-in. Reinforces the $30 free monthly compute offer."
+      image: "/images/modal-github.png",
+      description: "Standard GitHub OAuth flow for authentication. Users can sign in with existing GitHub account or create a new one. Includes password recovery options and passkey support."
     }
   ]
 
   const rayScreenshots = [
     {
       title: "Homepage",
-      image: "https://raw.githubusercontent.com/jameshe3/DevinTest/main/docs/onboarding-comparison/screenshots/ray_io_065228.png",
-      description: "Focus on 'The AI Compute Engine' with multiple calls-to-action. Strong integration with Anyscale platform."
+      image: "/images/ray-landing.png",
+      description: "Clean header with Ray/Anyscale branding. Features 'Get Started' button and highlights key capabilities. Shows customer logos including Uber, OpenAI, Spotify, and Instacart."
     },
     {
       title: "Anyscale Landing",
-      image: "https://raw.githubusercontent.com/jameshe3/DevinTest/main/docs/onboarding-comparison/screenshots/anyscale_ray_on_065244.png",
-      description: "Branded as 'Best Way to Run Ray' with emphasis on developer features and multi-cloud support."
+      image: "/images/ray-platform.png",
+      description: "Highlights Ray platform features including faster runtime, developer tooling, cloud flexibility, and AI governance. Clear 'Get Started' CTA."
     },
     {
       title: "Registration Page",
-      image: "https://raw.githubusercontent.com/jameshe3/DevinTest/main/docs/onboarding-comparison/screenshots/console_anyscale_065300.png",
-      description: "Registration form loading screen within the Anyscale console."
+      image: "/images/ray-signup.png",
+      description: "Clean, split-screen design. Requires work email for registration. Includes terms acceptance for Anyscale's Terms of Service, Privacy Policy, and Generative AI Supplement."
     }
   ]
 
